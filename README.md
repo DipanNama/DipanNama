@@ -1,9 +1,9 @@
-<h1 align="center">Hi 👋, I'm Dipan</h1>
-<h3 align="center">A passionate frontend developer from India</h3>
+<h1 align="center">Hi There 👋, I'm Dipan Nama</h1>
+<h3 align="center">A passionate frontend developer & a programmer from India</h3>
 
 - 🔭 I’m currently working on [Random Password Generator](https://github.com/DipanNama/RandomPasswordGenerator)
 
-- 🌱 I’m currently learning **Java, Go & Networking**
+- 🌱 I’m currently learning **Everything 😃**
 
 - 👯 I’m looking to collaborate on [design-resources-for-developers](https://github.com/bradtraversy/design-resources-for-developers)
 
