@@ -1,16 +1,12 @@
-### Hi there 👋
+### Hi there, I'm **Dipan** - aka [D4RK-C0D3][website] 👏 
 
-<!--
-**DipanNama/DipanNama** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
+## I'm a Web Developer, Student and Programmer!
+- 🔭 I’m currently working on a [Random Password Generator][RandomPasswordGenerator] project!
+- 🌱 I’m currently learning everything
+- 👯 I’m looking to collaborate with other Developers
+- 🤔 I’m looking for help no my [Random Password Generator][RandomPasswordGenerator] project
+- 💬 Ask me about anything and I will try to help you
+- 📫 How to reach me: 
 - 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+-  2020 Goals: Contribute more to Open Source Projects
+- ⚡ Fun fact: I like to draw and code
