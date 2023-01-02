@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'valencia';
-    src: url(../fonts/Valencia.woff) format('woff');
+    src: url('../fonts/Valencia.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
