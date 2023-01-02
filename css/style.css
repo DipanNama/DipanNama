@@ -2,7 +2,7 @@
 
 @font-face {
     font-family: 'valencia';
-    src: url(../font/Valencia.woff) format('woff');
+    src: url(../fonts/Valencia.woff) format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -10,7 +10,7 @@
 
 @font-face {
     font-family: 'hikou outline';
-    src: url('../font/Hikou\ Outline.otf') format('woff');
+    src: url('../fonts/Hikou\ Outline.otf') format('woff');
     font-weight: normal;
     font-style: normal;
 
