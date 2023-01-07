@@ -7,9 +7,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio | Resume | Dipan Nama </title>
     <link rel="stylesheet" href="css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.2.0/fonts/remixicon.css" rel="stylesheet">
 </head>
 
 <body>
+    <!-- Navbar -->
+    <div class="navbar">
+        <div class="logo">
+            <span>L</span>
+            <span>O</span>
+            <span>G</span>
+            <span>O</span>
+        </div>
+        <div class="nav-links">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Works</a></li>
+            <li><a href="#">Contace</a></li>
+        </div>
+    </div>
+    <!-- Navbar ends here -->
 
     <!-- preloader -->
     <div class="preloader">
@@ -21,11 +38,109 @@
     <div class="main">
         <div class="heading">
             <div class="container"></div>
-            <h1>Dipan Nama</h1>
+            <div class="scaleup">
+                <h1>Dipan Nama</h1>
+            </div>
         </div>
     </div>
     <!-- Main Section Ends Here -->
 
+    <!-- Social Links -->
+    <div class="social">
+        <div class="links"><a href="#"><i class="ri-instagram-line"></i></a></div>
+        <div class="links"><a href="#"><i class="ri-twitter-line"></i></a></div>
+        <div class="links"><a href="#"><i class="ri-facebook-circle-fill"></i></a></div>
+    </div>
+    <!-- Social links ends here -->
+
+    <section>
+        <div class="container-box"></div>
+    </section>
+
+    <div class="profile"></div>
+
+    <div class="clone-container"></div>
+
+    <div class="big-heading">
+        <h1>Coding</h1>
+    </div>
+
+    <div class="big-heading-bottom">
+        <h1>Website</h1>
+    </div>
+
+    <!-- javascript part starts here -->
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js"
+        integrity="sha512-z4OUqw38qNLpn1libAN9BsoDx6nbNFio5lA6CuTp9NlK83b89hgyCVq+N5FdBJptINztxn1Z3SaKSKUS5UP60Q=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script>
+
+        let profile = document.querySelector('.profile');
+        let profileAnime = anime.timeline({
+            targets: profile,
+            loop: false,
+            easing: 'easeInOutExpo',
+            delay: 8000,
+        })
+        profileAnime
+            .add({
+                opacity: 1,
+                rotateZ: -360,
+            })
+
+        let container = document.querySelector('.container-box');
+        for (let i = 1; i <= 100; i++) {
+            let box = document.createElement('div');
+            box.classList.add('element');
+            container.appendChild(box);
+        }
+
+        let box = document.querySelectorAll('.element');
+        Array.from(box).forEach(element => {
+            element.style.borderRadius = "50%";
+            element.style.opacity = "0.5";
+            element.style.scale = "0.2";
+        });
+
+        let clone = container.cloneNode(true);
+
+        let cloneContainer = document.querySelector('.clone-container').appendChild(clone);
+
+        let bigHeading = document.querySelector('.big-heading h1');
+
+        anime({
+            targets: '.big-heading h1',
+            opacity: 0.1,
+            duration: 3000,
+            translateX: -90,
+            delay: 9000
+        });
+
+        anime({
+            targets: '.big-heading-bottom h1',
+            opacity: 0.1,
+            duration: 3000,
+            translateX: 280,
+            delay: 9200
+        });
+
+        anime({
+            targets: 'section .container-box',
+            opacity: 0.4,
+            duration: 3000,
+            translateX: -100,
+            delay: 9600
+        });
+
+        anime({
+            targets: '.clone-container .container-box',
+            opacity: 0.4,
+            duration: 3000,
+            translateX: 100,
+            delay: 9800
+        });
+    </script>
 </body>
 
 </html>
