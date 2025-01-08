@@ -5,7 +5,7 @@
 
 - 🔭 I’m currently working on [Presentrinity](https://github.com/DipanNama/presentrinity)
 
-- 🌱 I’m currently learning **Typescript, Githug Actions, GraphQL etc.**
+- 🌱 I’m currently learning **Typescript, Github Actions, GraphQL etc.**
 
 - 👨‍💻 All of my projects are available at [https://landings-lake.vercel.app](https://landings-lake.vercel.app)
 
