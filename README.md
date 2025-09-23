@@ -9,11 +9,11 @@
 
 - 👨‍💻 All of my projects are available at [https://landings-lake.vercel.app](https://landings-lake.vercel.app)
 
-- 📝 I regularly write articles on [https://dipannama.github.io](https://dipannama.github.io)
+- 📝 I regularly write articles on [https://devdipan.tech](https://devdipan.tech)
 
 - 📫 How to reach me **dipannama91@gmail.com**
 
-- 📄 Know about my experiences [https://dipannama.github.io](https://dipannama.github.io)
+- 📄 Know about my experiences [https://devdipan.tech](https://devdipan.tech)
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
